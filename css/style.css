@@ -1,10 +1,10 @@
 :root {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
-    --color-brand: #e0f780;
-    --color-brand2: #deff58;
+    --color-base: #191E36;
+    --color-base2: #191E36;
+    --color-brand: #191E36;
+    --color-brand2: #3D88C4;
     --sidebar-width: 240px;
 }
 
@@ -95,13 +95,13 @@ nav img {
 }
 
 .btn-brand {
-    background-color: var(--color-brand) !important;
+    background-color: var(--color-body) !important;
     border-color: var(--color-brand) !important;
 }
 
 .btn-brand:hover,
 .btn-brand:focus {
-    background-color: var(--color-brand2);
+    background-color: var(--color-brand2) !important;
     color: var(--color-base) !important;
     border-color: var(--color-brand2);
 }
@@ -125,7 +125,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background-color: var(--color-brand);
+    background-color: var(--color-brand2);
     position: absolute;
     left: 0;
     top: 110%;
@@ -134,27 +134,59 @@ nav img {
 }
 
 .custom-link:hover::after {
+    color: var(--color-brand2);
 
     width: 100%;
 }
+.custom-link:hover{
+
+    color: var(--color-brand2) !important;
+}
+
+
+
+
+
+
+
 
 
 .brand-text {
     color: var(--color-brand) !important;
 }
 
+.brand-text-2{
+    color: var(--color-brand2) !important;
+}
 
 .bg-base {
     background-color: var(--color-base);
 }
 
 .shadow-effect {
+    background: linear-gradient(to left,#384270,#426d91);
+
     transition: all .5s;
 }
 
 .shadow-effect:hover {
-    box-shadow: -6px 6px 0 0 var(--color-brand2);
+    box-shadow: -6px 6px 10px 0 var(--color-brand2);
+
+
+
 }
+/* 
+.shadow-effect:hover p{
+
+    font-weight: 600;
+    color:  black !important;
+}
+
+.shadow-effect:hover h4{
+
+    font-weight: 600;
+    color:  black !important;
+} */
 
 .one-line {
     display: flex;
@@ -201,15 +233,15 @@ nav img {
 }
 
 .contacting .emm{
-    background-color: var(--color-brand);
+    background-color: var(--color-body);
     color: var(--color-base2);
     font-weight: 700;
     /* font-size: 20px; */
 }
 
 .contacting .emm:hover{
-    background-color: var(--color-base);
-
+    background-color: var(--color-brand2);
+color: var(--color-body) !important;
 }
 
 
@@ -223,3 +255,19 @@ nav img {
     background-color: var(--color-base);
     border-radius: 30px;
 }
+.social-icons a span i:hover{
+    color: var(--color-brand2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
