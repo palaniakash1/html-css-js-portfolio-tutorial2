@@ -8,6 +8,13 @@
     --sidebar-width: 240px;
 }
 
+html{
+    cursor: none;
+}
+a,button{
+    cursor:none;
+}
+
 body {
     background-color: var(--color-base2) !important;
     color: var(--color-body);
