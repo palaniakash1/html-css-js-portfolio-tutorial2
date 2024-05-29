@@ -209,6 +209,7 @@ nav img {
 }
 
 .card-custom .card-custom-image img {
+    max-height: 390px;
     transition: all .4s ease;
 }
 
@@ -230,6 +231,18 @@ nav img {
     display: flex;
     justify-content: space-around;
 }
+.btn-fam a:hover{
+    font-weight: 600;
+    color: var(--color-brand2) !important;
+
+}
+
+.project-card{
+
+    margin-top: 50px !important;
+
+}
+
 .btn-round
 {
     background-color: var(--color-base2);
@@ -265,7 +278,6 @@ color: var(--color-body) !important;
 .social-icons a span i:hover{
     color: var(--color-brand2);
 }
-
 
 
 
